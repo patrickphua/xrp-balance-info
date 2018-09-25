@@ -2,11 +2,13 @@
 
 Get notified whenever transactions occur on XRP addresses.
 
-The script opens a websocket and (subscribes)[https://ripple.com/build/rippled-apis/#subscribe] to accounts on the XRP leger. Whenever transaction occurs on any of the accounts, an email notification will be sent.
+The script opens a websocket and [subscribes](https://ripple.com/build/rippled-apis/#subscribe) to accounts on the XRP leger. Whenever transaction occurs on any of the accounts, an email notification will be sent.
 
-The library used is [rippled-ws-client](https://github.com/WietseWind/rippled-ws-client) which is a great complement to (ripple-lib)[https://github.com/ripple/ripple-lib] from Ripple.
+The library used is [rippled-ws-client](https://github.com/WietseWind/rippled-ws-client) which is a great complement to [ripple-lib](https://github.com/ripple/ripple-lib) from Ripple.
 
-This particular implementation utilizes DynamoDB (because free) to store the XRP addresses and their corresponding notification email addresses. The email provider is Amazon Simple Email Service (because free again). Both are rather cumblesome to use, and can be easily replaced with any tool of your choice.
+This particular implementation utilizes DynamoDB _(because free)_ to store the XRP addresses and their corresponding notification email addresses. 
+The email provider is Amazon Simple Email Service _(because free again)_. 
+Both are rather cumblesome to use, and can be easily replaced with any tool of your choice.
 
 ## Getting Started
 
