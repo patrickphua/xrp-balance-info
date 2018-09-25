@@ -1,0 +1,43 @@
+{
+  "name": "xrp-balance-info",
+  "version": "1.0.0",
+  "description": "Get notified whenever transactions occur on XRP addresses",
+  "main": "websocket.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickphua/xrp-balance-info.git"
+  },
+  "keywords": [
+    "XRP",
+    "rippled",
+    "ripple-lib",
+    "xrp",
+    "ledger",
+    "account",
+    "balance"
+  ],
+  "author": "Patrick Phua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickphua/xrp-balance-info/issues"
+  },
+  "homepage": "https://github.com/patrickphua/xrp-balance-info#readme",
+  "dependencies": {
+    "aws-sdk": "^2.230.1",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "path": "^0.12.7",
+    "request": "^2.85.0",
+    "rippled-ws-client": "0.0.6",
+    "rs": "0.0.2",
+    "shortid": "^2.2.8",
+    "websocket": "^1.0.26",
+    "winston": "^3.0.0-rc5"
+  }
+}
